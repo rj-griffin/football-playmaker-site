@@ -6,7 +6,12 @@ from dataclasses import dataclass
 # ==================================================
 
 set_website_title("Football Playbook Organizer")
-set_site_information( author="RJ Griffin", description="Create and organize American football plays", sources="Thanks to the Drafter docs and my LLM", planning=["C:/Users/rgrif/Downloads/R.J Griffin - CS1 Final Project 1_ Design.pdf", "C:/Users/rgrif/Downloads/RJ Griffin - CS1 Final Project 0_ Pick a Problem.pdf"], links=["https://github.com/rj-griffin/football-playmaker-site"] )
+set_site_information( 
+    author="RJ Griffin", 
+    description="Create and organize American football plays", 
+    sources="https://chatgpt.com/share/6af6374b-af88-83ea-8dae-f33609df2c52", 
+    planning=["C:/Users/rgrif/Downloads/R.J Griffin - CS1 Final Project 1_ Design.pdf", "C:/Users/rgrif/Downloads/RJ Griffin - CS1 Final Project 0_ Pick a Problem.pdf"], 
+    links=["https://github.com/rj-griffin/football-playmaker-site"] )
 
 add_website_css("""
     #drafter-body-- {
